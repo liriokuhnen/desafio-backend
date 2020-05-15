@@ -1,0 +1,31 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$180000$zT0jIg3BE5RR$MLX8M7Yyd4GK15V9zQf/3+Et3B2RrXZaIvbE/omUt4k=",
+            "last_login": "2020-05-10T23:03:18.432Z",
+            "is_superuser": true,
+            "username": "user3",
+            "first_name": "",
+            "last_name": "",
+            "email": "user3@user3.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-05-10T23:03:18Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "api.travel",
+        "pk": 4,
+        "fields": {
+            "user": 3,
+            "start_date": "2020-05-10T23:50:02Z",
+            "finish_date": "2020-05-10T23:50:02Z",
+            "classification": null,
+            "evaluate": null
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$180000$zT0jIg3BE5RR$MLX8M7Yyd4GK15V9zQf/3+Et3B2RrXZaIvbE/omUt4k=",
+            "last_login": "2020-05-10T23:03:18Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@admin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-05-10T23:03:18Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "api.classification",
+        "pk": 1,
+        "fields": {
+            "classification": "Trabalho"
+        }
+    },
+    {
+        "model": "api.classification",
+        "pk": 2,
+        "fields": {
+            "classification": "Atividade física"
+        }
+    },
+    {
+        "model": "api.classification",
+        "pk": 3,
+        "fields": {
+            "classification": "Lazer"
+        }
+    },
+    {
+        "model": "api.classification",
+        "pk": 4,
+        "fields": {
+            "classification": "Deslocamento"
+        }
+    },
+    {
+        "model": "api.travel",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "start_date": "2020-05-10T23:50:02Z",
+            "finish_date": "2020-05-10T23:50:02Z",
+            "classification": 1,
+            "evaluate": null
+        }
+    },
+    {
+        "model": "api.travel",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "start_date": "2020-05-10T23:50:02Z",
+            "finish_date": "2020-05-10T23:50:02Z",
+            "classification": null,
+            "evaluate": null
+        }
+    }
+    ,
+    {
+        "model": "api.travel",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "start_date": "2020-05-10T23:50:02Z",
+            "finish_date": "2020-05-10T23:50:02Z",
+            "classification": null,
+            "evaluate": 1
+        }
+    }
+]
