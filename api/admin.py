@@ -1,3 +1,6 @@
+from api.models import Travel, Classification
+
 from django.contrib import admin
 
-# Register your models here.
+admin.site.register(Travel)
+admin.site.register(Classification)
