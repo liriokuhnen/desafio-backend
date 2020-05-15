@@ -230,3 +230,10 @@ The REST API to the example app is described below.
         "classification": null,
         "evaluate": null
     }
+
+
+# Related Documentation
+
+[Django](https://docs.djangoproject.com/en/3.0/)
+[Django Rest Framework](https://www.django-rest-framework.org/)
+[Django Rest Framework SimpleJwt](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html)
